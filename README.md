@@ -9,8 +9,7 @@ Uma aplicação Full Stack desenvolvida com **React**, **Node.js**, **Express** 
 <br>
 
 **🔗 Acesse o projeto:**  
-👉 https://cassymari.github.io/userflow/
-
+👉 https://cassymari.github.io/userflow-dashboard/
 </div>
 
 ---
