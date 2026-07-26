@@ -1,191 +1,174 @@
-![React](https://img.shields.io/badge/React-19-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
-![Prisma](https://img.shields.io/badge/Prisma-ORM-black)
-![Render](https://img.shields.io/badge/Render-Deploy-purple)
+<div align="center">
 
-# 🚀 Cadastro de Usuários
+# 🚀 UserFlow
 
-Aplicação Full Stack para gerenciamento de usuários, desenvolvida com React no frontend e Node.js no backend. O sistema permite cadastrar, listar, editar e excluir usuários, utilizando PostgreSQL como banco de dados.
+### Sistema moderno de gerenciamento de usuários
 
-## 🌐 Projeto Online
+Uma aplicação Full Stack desenvolvida com **React**, **Node.js**, **Express** e **API REST**, permitindo cadastrar, visualizar e excluir usuários através de uma interface moderna e responsiva.
 
-### Frontend
+<br>
 
+**🔗 Acesse o projeto:**  
+👉 https://cassymari.github.io/userflow/
 
-https://cassymari.github.io/cadastro-de-usuarios/
-
-### Backend API
-
-https://cadastro-de-usuarios-api-v8q6.onrender.com
+</div>
 
 ---
 
-## 📸 Preview
+# 📌 Sobre o projeto
 
-<img width="1079" height="1925" alt="C1" src="https://github.com/user-attachments/assets/4509a649-65ef-4361-926b-ed0131335a52" />
+O **UserFlow** foi desenvolvido para simular um sistema de gerenciamento de usuários utilizado em aplicações reais.
 
+O projeto possui integração completa entre Front-end e Back-end utilizando API REST, oferecendo uma experiência fluida para cadastro, consulta e gerenciamento de registros.
 
----
-
-## ✨ Funcionalidades
-
-* Cadastro de usuários
-* Listagem de usuários
-* Edição de usuários
-* Exclusão de usuários
-* Integração com banco de dados PostgreSQL
-* API RESTful
-* Persistência de dados com Prisma ORM
+Além da implementação das funcionalidades CRUD, o foco foi criar uma interface moderna, intuitiva e totalmente responsiva.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🚀 Funcionalidades
 
-### Frontend
+✅ Cadastro de usuários
 
-* React
-* JavaScript
-* Axios
-* CSS
+✅ Listagem dinâmica
 
-### Backend
+✅ Exclusão de usuários
 
-* Node.js
-* Express
-* Prisma ORM
-* PostgreSQL
-* CORS
-* Dotenv
+✅ Pesquisa por nome ou e-mail
+
+✅ Atualização automática da interface
+
+✅ Integração com API REST
+
+✅ Interface responsiva
+
+✅ Dashboard moderno
+
+---
+
+# 🛠 Tecnologias
+
+### Front-end
+
+- React
+- React Router DOM
+- Styled Components
+- Axios
+- Vite
+
+### Back-end
+
+- Node.js
+- Express
 
 ### Banco de Dados
 
-* PostgreSQL (Neon)
+- API REST
 
-### Deploy
+### Ferramentas
 
-* Frontend: GitHub Pages
-* Backend: Render
-* Banco de Dados: Neon
+- Git
+- GitHub
+- GitHub Pages
+- Render
 
 ---
 
-## 📂 Estrutura da API
 
-### Buscar todos os usuários
+# 📂 Estrutura
 
-```http
-GET /usuarios
 ```
-
-### Cadastrar usuário
-
-```http
-POST /usuarios
-```
-
-Exemplo:
-
-```json
-{
-  "name": "Cassiane",
-  "email": "cassiane@email.com",
-  "age": 25
-}
-```
-
-### Atualizar usuário
-
-```http
-PUT /usuarios/:id
-```
-
-Exemplo:
-
-```json
-{
-  "name": "Novo Nome",
-  "email": "novo@email.com",
-  "age": 30
-}
-```
-
-### Excluir usuário
-
-```http
-DELETE /usuarios/:id
+src
+│
+├── assets
+├── components
+├── pages
+│   ├── Home
+│   └── ListUsers
+│
+├── routes
+├── services
+└── styles
 ```
 
 ---
 
-## ⚙️ Como Executar o Projeto Localmente
+# ⚙️ Como executar
 
-### Clone o repositório
-
-```bash
-git clone https://github.com/cassymari/cadastro-de-usuarios-api.git
-```
-
-### Acesse a pasta do projeto
+Clone o projeto
 
 ```bash
-cd cadastro-de-usuarios-api
+git clone https://github.com/cassymari/userflow.git
 ```
 
-### Instale as dependências
+Entre na pasta
+
+```bash
+cd userflow
+```
+
+Instale as dependências
 
 ```bash
 npm install
 ```
 
-### Configure o arquivo .env
-
-```env
-DATABASE_URL="sua_url_postgresql"
-```
-
-### Execute o Prisma
+Execute
 
 ```bash
-npx prisma generate
-npx prisma db push
-```
-
-### Inicie a aplicação
-
-```bash
-npm start
+npm run dev
 ```
 
 ---
 
-## 📁 Estrutura do Projeto
+# 🌐 API
 
-```text
-├── prisma
-│   ├── schema.prisma
-│
-├── server.js
-├── package.json
-├── .env
-├── .gitignore
-```
+O projeto consome uma API REST responsável pelo gerenciamento dos usuários.
+
+Operações disponíveis:
+
+- GET
+- POST
+- DELETE
 
 ---
 
-## 🎯 Objetivo do Projeto
+# 📱 Responsividade
 
-Este projeto foi desenvolvido com o objetivo de praticar e consolidar conhecimentos em:
+O projeto foi desenvolvido para funcionar em:
 
-* Desenvolvimento Full Stack
-* Criação de APIs REST
-* Integração Frontend e Backend
-* Banco de Dados PostgreSQL
-* ORM Prisma
-* Deploy de aplicações em produção
+- 💻 Desktop
+- 📱 Smartphones
+- 📲 Tablets
 
 ---
 
+# 🎯 Objetivo
+
+Este projeto foi criado para consolidar conhecimentos em desenvolvimento Full Stack, consumo de APIs REST e construção de interfaces modernas utilizando React.
+
+---
+
+# 👩‍💻 Desenvolvedora
+
+<div align="center">
+
+## Cassiane M. Nascimento
+
+Desenvolvedora Full Stack
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cassymari)
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ Se este projeto foi interessante para você, deixe uma estrela no repositório!
+
+</div>
 ## 👩‍💻 Desenvolvedora
 
 **Cassiane M. Nascimento**
