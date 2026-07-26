@@ -15,7 +15,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: '/cadastro-de-usuarios',
+    basename: '/userflow-dashboard',
   }
 )
 
